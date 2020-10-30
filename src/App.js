@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h3>Original person</h3>
+      <h3 style={{'textAlign':'center'}}>Original person</h3>
       <p>
         Persona Name: {person.name}
         <br />
@@ -33,7 +33,7 @@ export default function App() {
       </p>
       <h3>Doing shallow copy, changed the address of the copied object, when printed first person data also changed </h3>
       <hr />
-      <h3>Updated person</h3>
+      <h3 style={{'textAlign':'center'}}>Updated person</h3>
       <p>
         Persona Name: {updatedPerson.name}
         <br />
